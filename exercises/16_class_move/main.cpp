@@ -36,7 +36,7 @@
                 other.cache = nullptr; // 避免析构时释放内存
                 other.cached = 0;
             }
-            return *this;
+            return *this;   
         }
 
         // TODO: 实现析构器，释放缓存空间
